@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>DevSkill169Gold.DCP29CommonString</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,8 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bicycle.cs" />
+    <Compile Include="DCP106TazzCricket.cs" />
+    <Compile Include="DCP166POSSystem.cs" />
+    <Compile Include="DCP187BelovedUncle.cs" />
+    <Compile Include="DCP29CommonString.cs" />
+    <Compile Include="DCP602QuadTree.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SquareFindOut.cs" />
+    <Compile Include="TwoDArray.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
